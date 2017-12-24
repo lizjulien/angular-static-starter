@@ -5,7 +5,7 @@
 # Angular Static Starter [![Angular Static Starter](https://img.shields.io/badge/static-angular-brightgreen.svg?style=flat)](https://github.com/lizjulien/angular-static-starter)
 > Static Generator for Angular based app
 
-A minimal starter for generate static website using the power of Anguler
+A minimal starter for generate static website using the power of Angular
 
 > More information about Angular Universal: [**angular/universal**](https://github.com/angular/universal)  
 
