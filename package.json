@@ -4,9 +4,9 @@
   "description": "Angular Static Starter give you the power of Angular to generate static website",
   "homepage": "https://github.com/lizjulien/angular-static-starter",
   "license": "MIT",
-  "author": "Moulin Julien <julien@baliz.org> (http://baliz.org/)", 
+  "author": "Moulin Julien <julien@baliz.org> (http://baliz.org/)",
   "scripts": {
-    "dev": "ng serve",
+    "start": "ng serve",
     "build": "run-s server:stop build:client build:aot build:server server:start create:static server:stop",
     "build:client": "ng build -prod --build-optimizer --app 0",
     "build:aot": "ng build --aot --app 1",
