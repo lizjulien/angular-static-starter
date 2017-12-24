@@ -1,0 +1,27 @@
+#flexboxTotal {
+  display: flex;
+  width: 85vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#flexboxColumnLeft {
+  display: flex;
+  width: 45vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#flexboxColumnRight {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 100vh;
+}
+
+#flexboxDownRight {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+}
