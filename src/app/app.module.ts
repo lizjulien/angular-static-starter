@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import { AppRouting } from './app.routing.module';
 
 import { HomePageComponent } from './pages/home/home.component';
+import { HttpExampleComponent } from './components/http-example/http-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
+    HttpExampleComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'angular-static-starter-app' }),
