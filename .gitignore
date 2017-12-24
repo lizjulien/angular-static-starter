@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+
+# Production & Tests
+*/coverage
+*/dist
+*/site
+*/logs
+*/out-tsc
+cache
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.idea
+.project
+.classpath
+.c9
+.settings
+*.launch
+*.sublime-workspace
+.vscode/**
