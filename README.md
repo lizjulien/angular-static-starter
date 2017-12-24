@@ -24,11 +24,5 @@ This repo demonstrates the use of Server Side Rendering with a script to dump ap
 
 **Note**: To deploy your static site to a static hosting platform you will have to deploy the `site/localhost_4200` content, rather than the usual `dist`
 
-
- - The application runs XHR requests on the server, during the build phase & once again on the Client-side (when the application bootstraps)
-    - Use a cache that's transferred from server to client
- - Know the difference between attributes and properties in relation to the DOM.
- - Keep your directives stateless as much as possible. For stateful directives, you may need to provide an attribute that reflects the corresponding property with an initial string value such as url in img tag. For our native element the src attribute is reflected as the src property of the element type HTMLImageElement.
-
 # License
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
